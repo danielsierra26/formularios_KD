@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con Checkbox y Barra de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Formulario de Datos</h2>
+        <form action="procesar.php" method="POST">
+            <div class="input-group">
+                <label for="nombre">Escribe tu nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+            </div>
+            <div class="checkbox-group">
+                <p></p>
+                <label class="checkbox-container">Deporte
+                    <input type="checkbox" name="intereses[]" value="java">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-container">Música
+                    <input type="checkbox" name="intereses[]" value="html">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-container">Tecnología
+                    <input type="checkbox" name="intereses[]" value="css">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="checkbox-container">Arte
+                    <input type="checkbox" name="intereses[]" value="python">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
