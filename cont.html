@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño con Títulos e Imágenes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+
+        .rectangulo {
+            background-color: #fff;
+            border: 2px solid #ccc;
+            padding: 20px;
+            width: 400px;
+            height: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .rectangulo h2 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: #333;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        .rectangulo p {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .imagenes {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .imagenes img {
+            width: 100%;
+            height: 100%;
+            max-height: 250px;
+            object-fit: cover;
+            border: 2px solid #ccc;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="rectangulo">
+            <h2>Contacto</h2>
+            <p>feriadeuniversidades@colegioguanenta.edu.co</p>
+    
+            <h2>Rector</h2>
+            <p>Lic. José Antonio Ballesteros Vásquez</p>
+    
+            <h2>Coordinación del evento</h2>
+            <p>Ph.D. Liliana Ayala Quiñonez<br>
+                layala@colegioguanenta.edu.co<br><br>
+                Mg. Milton Javier Ulloa Jiménez<br>
+                mulloa@colegioguanenta.edu.co</p>
+    
+            <h2>Desarrolladores</h2>
+            <p>Felipe Jimenez: andresjimenez@colegioguanenta.edu.co<br>        
+                Renyelis Luyando: renyelisluyando@coleghioguanenta.edu.co<br>
+                Paul Colmenares: paulcolmenares@colegioguanenta.edu.co<br>       
+                Andres Garcia: andresgarcia@colegioguanenta.edu.co<br>
+                Sebastian Hernandez: sebastianhernandez@colegioguanenta.edu.co<br>     
+                Lizeth Ayala: lizethayala@colegioguanenta.edu.co<br>
+                Daniel Sierra: danielsierra@colegioguanenta.edu.co</p>
+    
+            <h2>Especialidad en Sistemas</h2>
+        </div>
+        <div class="imagenes">
+            <img src="img/Imagen soltada (2).png" alt="Imagen 1">
+            <img src="img/Imagen soltada.png" alt="Imagen 2">
+        </div>
+    </div>
+</body>
+</html>
